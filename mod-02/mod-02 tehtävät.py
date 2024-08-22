@@ -25,3 +25,7 @@ print("tulo: "  + str(tulo))
 keskiarvo = (summa/3)
 print("keskiarvo: " + str(keskiarvo))
 
+
+leiviskät = float(input('Anna leiviskät: '))
+naulat = float(input('Anna naulat: '))
+luodit = float(input('Anna luodit: '))
