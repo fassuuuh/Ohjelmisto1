@@ -19,3 +19,4 @@ elif (sukupuoli == "mies" and hemoglobiini_arvo >= 195 ):
     print("Hemoglobiiniarvo on liian korkea")
 elif (sukupuoli == "mies" and hemoglobiini_arvo <= 134 ):
     print("Hemoglobiiniarvo on liian alhainen")
+
