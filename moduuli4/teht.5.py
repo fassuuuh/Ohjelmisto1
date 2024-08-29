@@ -13,5 +13,3 @@ while väärät < 5 :
     if väärät >= 5:
         print("Pääsy evätty.")
         break
-
-
