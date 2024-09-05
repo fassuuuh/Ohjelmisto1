@@ -1,9 +1,12 @@
 import random
-def silmaluku():
-    sl = random.randint(1,6)
-    return sl
+tahkot = int(input("Syötä nopan tahkojen määrä: "))
+syote = int(input("Syötä maksimisilmäluku: "))
+
+def heita_noppaa(tahkojen_lukum):
+    tm = random.randint(1, tahkojen_lukum)
+    return tm
 
 tulos = 0
-while tulos != 6:
-    tulos = silmaluku()
+while tulos != syote:
+    tulos = heita_noppaa(tahkot)
     print(tulos)
