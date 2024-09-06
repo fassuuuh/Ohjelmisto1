@@ -14,6 +14,6 @@ def parillinen(lista):
     return parilliset
 
 print(f"Alkuperäinen lista: {lista}")
-print(f"Alkuperäinen lista, josta parittomat karsittu pois: {parillinen(lista)}")
+print(f"Lista, jossa vain parillisia: {parillinen(lista)}")
 
 
