@@ -7,7 +7,13 @@ while True:
     lista.append(syote)
 
 def parillinen(lista):
-    pariton =
-    return pariton
+    parilliset = []
+    for i in lista:
+        if i % 2 == 0:
+            parilliset.append(i)
+    return parilliset
 
-print(parillinen(lista))
+print(f"Alkuperäinen lista: {lista}")
+print(f"Alkuperäinen lista, josta parittomat karsittu pois: {parillinen(lista)}")
+
+
