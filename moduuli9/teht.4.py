@@ -1,4 +1,3 @@
-
 import random
 class Auto:
     def __init__(self, rekkari, huippunop):
@@ -35,7 +34,7 @@ while kilpailu_kaynnissa:
 
 # Tulostetaan kaikkien autojen tiedot taulukkomuodossa
 print(
-    f"{'Rekisteritunnus':<12} {'Huippunopeus (km/h)':<18} {'Hetkellinen nopeus (km/h)':<24} {'Kuljettu matka (km)':<20}")
+    f"{'Rekist.tunnus':<12} {'Huippunopeus (km/h)':<18} {'Hetkellinen nopeus (km/h)':<24} {'Kuljettu matka (km)':<20}")
 print("-" * 70)
 for auto in autolista:
     print(f"{auto.rekkari:<12} {auto.huippunop:<18} {auto.hetkinop:<24} {auto.kuljettumatka:<20}")
